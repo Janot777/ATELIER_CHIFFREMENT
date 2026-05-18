@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Fichiers d'atelier (chiffrés/déchiffrés) — ne JAMAIS committer
+*.enc
+*.dec
+*.dec.txt
+secret.txt
+nacl_secret.txt
+
+# Clés — ne JAMAIS committer
+*.key
+fernet.key
+nacl.key
+
+# OS
+.DS_Store
